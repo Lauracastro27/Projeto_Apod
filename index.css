@@ -1,0 +1,155 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: url(background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+header{
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+   display: flex;
+   flex-direction: row;
+   font-family: 'Parisienne', cursive;
+   box-shadow: 5px 5px 8px rgb(180, 177, 177);
+}
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-grow: 1;
+   margin: 20px 30px 0;
+   font-size: 50px;
+   color: white;
+   text-shadow: 10px 10px 10px black;
+}
+ul, img{
+   width: 90px;
+   height: 90px;
+}
+.pointer{
+   cursor: pointer;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Cinzel', serif;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+   font-size: 50px;
+   margin: 10px;
+}
+h3{
+   font-size: 25px;
+   margin: 10px;
+}
+.pagePrincipal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+   align-content: center;
+} 
+.dataEbtn{
+   margin-top: 20px;
+}
+#date{
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 10px;
+   margin: auto;
+   align-self: auto;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+}
+#date:hover{
+   background-color: rgb(78, 16, 78);
+}
+#button{
+   font-size: 20px;
+   padding: 8px;
+   box-shadow: 2px 2px 2px rgb(196, 184, 199);
+   border-radius: 10px; 
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+}
+#button:hover{
+   background-color: rgb(78, 16, 78);  
+}
+.resultados{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 20px; 
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+   padding: 25px;
+   border: 2px ridge black;
+   margin: 30px 50px 30px;
+   gap: 15px;
+   padding: 20px;
+}
+.autor{
+   background-color: thistle;
+   text-align: center;
+   font-size: 40px;
+   width: 80%;  
+   border-radius: 00.5rem;
+   margin-top: 20px;
+}
+.foto{
+   width: 80%;
+   height: auto;
+   margin: auto;
+   border-radius: 00.5rem;
+}
+.video{
+   width: 50%;
+   height: 500px;
+   margin: auto;
+   border-radius: 00.5rem;
+}
+.descricao{
+   background-color: thistle;
+   font-size: 20px;
+   width: 80%;
+   margin:0.1rem auto 1rem;
+   border: 5px solid white;
+   border-radius: 00.5rem;
+   padding: 10px;
+}
+.inv{
+   display: none;
+}
+footer{
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur( 10px );
+   -webkit-backdrop-filter: blur( 10px );
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   width: 100%;
+   padding: 15px;
+   margin-top: 15px;
+   font-size: 20px;
+   position: static;
+   bottom: 0;
+   font-family: 'Cinzel', serif;
+}
+footer, a{
+   color: white;
+   text-decoration: none;
+}
