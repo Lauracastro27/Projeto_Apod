@@ -8,7 +8,7 @@
     <title>Inicio</title>
     <link rel="icon" href="iconpage.png">
     <link rel="stylesheet" href="index.css">
-    <script type="text/javascript" src="scritp.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
@@ -22,10 +22,9 @@
         <ul>
             <li class="apod">Apod</li>
             <li class="cont"><img src="astronauta.png"></li>
-            <li class="cont"><a href="https://apod.nasa.gov/apod/lib/about_apod.html">Sobre Apod</a></li>
-            <li class="cont"><a href="https://www.nasa.gov/">Nasa</a></li>
-            <li class="cont
-            "><a href="https://www.instagram.com/laura._.castro27/">Contato</a></li>
+            <li class="cont" onclick="sobre()">Sobre Apod</li>
+            <li class="cont" onclick="nasa()">Nasa</li>
+            <li class="cont" onclick="instagram()">Contato</li>
         </ul>
     </header>
     <main>
@@ -33,10 +32,10 @@
         <h3>Cada dia é apresentada uma imagem ou video diferente do nosso fascinante universo,
             juntamente com uma breve explicação escrita por um astrônomo profissional.
         </h3>
-        <button id="start">Começar!</button>
+        <button onclick="Apod()">Começar!</button>
     </main>
     <footer>
-        <p>Página criada por <a href="https://www.instagram.com/laura._.castro27/">Laura Castro</a><br>
+        <p>Página criada por <em onclick="instagram()">Laura Castro</em><br>
             Para fins educacionais Resilia 2022</p>
     </footer>
 </body>

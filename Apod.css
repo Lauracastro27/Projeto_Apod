@@ -146,9 +146,8 @@ footer{
    bottom: 0;
    font-family: 'Cinzel', serif;
 }
-footer, a{
-   color: white;
-   text-decoration: none;
+em{
+   cursor: pointer;
 }
 @media (max-width: 450px) {
    ul{
