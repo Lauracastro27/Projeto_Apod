@@ -18,7 +18,7 @@ $(document).ready(function () {
 })
 
 let botao = $('#button')
-$('.video').addClass('none')
+$('.video').addClass('inv')
 
 botao.on('click', function () {
     $('html').css('height', 'auto')
